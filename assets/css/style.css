@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+/* Utility */
+
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.hearts{
+    font-size: 150%;
+    background-color: white;
+    padding: 1% 2.5%;
+    top: 5%;
+    right: 0;
+}
+.et-sconto{
+    background-color: red;
+    color: white;
+    padding: 4px;
+    font-size: 11px;
+    left: 0;
+    top: 75%;
+}
+.et-sost{
+    background-color: green;
+    color: white;
+    padding: 4px;
+    font-size: 11px;
+    top: 75%;
+}
+.left-10{
+    left: 10%;
+}
+.color-red{
+    color: red;
+}
+.barrato{
+    text-decoration: line-through;
+}
+.fontsize-piccola{
+    font-size: 14px;
+}
+header{
+    background-color: #FF6900;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid green;
+    min-height: fit-content;
+    max-height: fit-content;
+    z-index: 1;
+}
+header section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+.container1{
+    width: 80%;
+    margin: auto;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+.container2{
+    width: 80%;
+    margin: 3% auto;
+    display: flex;
+    justify-content: space-between;
+}
+main section div{
+    width: calc(95%/3);
+}
+.foto1:hover{
+    
+}
