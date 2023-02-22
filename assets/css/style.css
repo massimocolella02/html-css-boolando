@@ -91,6 +91,7 @@ main section > div{
 }
 .top-img:hover{
     opacity: 1;
+    transition: ease-in 0.3s;
 }
 footer{
     background-color: #1A1A1A;
